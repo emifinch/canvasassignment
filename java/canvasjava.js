@@ -1,5 +1,5 @@
 var canvas = document.getElementById("myCanvas"); 
-var context= canvas.getContext('2d')
+var context= canvas.getContext('2d');
 
 var radius=10; 
 
