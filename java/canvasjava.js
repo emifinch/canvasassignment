@@ -8,7 +8,7 @@ canvas.height=window.innerHeight;
 
 var putPoint=function(e){
     context.beginPath():
-    context.arc(e.offsetX, e.offsetY, radius,0,Math.PI=2);
+    context.arc(e.offsetX, e.offsetY,radius,0,Math.PI* 2);
     context.fill(); 
 }
 canvas.addEventListener('mousedown', putPoint);
