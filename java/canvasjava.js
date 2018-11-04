@@ -3,7 +3,7 @@ var context= canvas.getContext('2d');
 
 var radius=10; 
 
-canvas.width=window.innerWidth
+canvas.width=window.innerWidth;
 canvas.height=window.innerHeight;
 
 var putPoint=function(e){
