@@ -21,5 +21,5 @@ var disengage=function(){
 }
 
 canvas.addEventListener('mousedown',engage);
-canvas.addEventListener('mousedown', putPoint);
+canvas.addEventListener('mousemove', putPoint);
 canvas.addEventListener('mouseup',disengage);
