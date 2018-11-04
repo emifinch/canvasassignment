@@ -12,8 +12,9 @@ var putPoint=function(e){
     }
 }
 
-var engage=function(){
+var engage=function(e){
     dragging=true;
+    putPoint(e);
 }
 
 var disengage=function(){
