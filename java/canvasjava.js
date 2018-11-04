@@ -25,7 +25,7 @@ function getMousePos(canvas, evt){
 function draw(canvas,posx, posy){
     var context= canvas.getContext('2d')
     if (md){
-        context.fillRect(posx, posy, )
+        context.fillRect(posx, posy, 1,0 )
     }
 }
 
